@@ -45,7 +45,7 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
       5 - VIA Laptop's: VT1802 
       6 - Cirrus Logic Laptop's: CS4213 and CS4210 
 
-###  [Troubleshooting :](https://raw.githubusercontent.com/insanelydeepak/cloverHDA/master/TroubleShoot/Troubleshoot Reporting.md)
+###  [Troubleshooting :](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/TroubleShoot/Troubleshoot%20Reporting.md)
        After installing repair permissions and rebuild caches use an application of your choice and Restart
        Recommended to Use EasyKexPro  
        Restart , if still not geting sound devices then :
