@@ -19,7 +19,7 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
 
       1 - Download cloverHDA.kext as per your Audio ID's 
       2 - Install using EastKextPro or any Kext Installer to /S/L/E
-      3 - Now apply patches from cloverHDA.plist to your Clover config.plist 
+      3 - Now apply patches from cloverHDA.plist to your Clover config.plist (You don't have to do this if using method HDAEnabler or HDEF Patch)
       4 - Add Layout_ID = 13 , 11 or 12 as described in ReadME.txt 
       5 - Restart 
 
