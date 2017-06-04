@@ -7,9 +7,10 @@
       2 - Screenshot of System Information/Hardware/Audio/Intel High Definition Audio 
       3 - Clover files
           i  Clover config.plist 
-          ii Clover bootlog
+          ii Clover bootlog -> Type in Terminal below commands : save ouput 
+          ` bdmesg `
       4 - Type in Terminal below commands : save ouput 
-           kextstat | grep -y AppleHDA
+          ` kextstat | grep -y AppleHDA `
 
 
 
