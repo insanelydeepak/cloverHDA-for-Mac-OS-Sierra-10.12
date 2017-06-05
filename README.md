@@ -46,10 +46,17 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
       6 - Cirrus Logic Laptop's: CS4213 and CS4210 
 
 ###  [Troubleshooting :](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/TroubleShoot/Troubleshoot%20Reporting.md)
-       After installing repair permissions and rebuild caches use an application of your choice and Restart
-       Recommended to Use EasyKexPro  
-       Restart , if still not geting sound devices then :
-       please report with Requested files 
+     
+     1.No Audio after installation : basically this happens due to CloverHDA is not loaded or LayoutID is not used either via DSDT(HDEF Patch) or Clover (config.plist) , also make sure that VoodooHDA or AppleALC is not installed.
+     2.Headphone/Microphone is not working : you have to use Codec_commander , if still issue exist you need to make custom profil for Codec_commander so it can work with your codec.
+     3.No Audio after Sleep : use EAPDFix or Codec_Commander , customize its info.plist as per your requirements.
+     4.Device show but no Audio : Some laptops requires to use FakePCIID , use always latest version of FakePCIID from rehabman.
+     5.if still not geting sound devices then : please report with Requested files ,
+### Note : Recommended to Use EasyKexPro for installation , Repair Permission and Rebuild Caches.
+
+### Issue/Bug Reporting :
+
+ You must have all files requested in [Troubleshooting :](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/TroubleShoot/Troubleshoot%20Reporting.md) 
 
 
 This kext is based on  [PikeRAlpha's DummyHDA method](https://pikeralpha.wordpress.com/2013/12/17/new-style-of-applehda-kext-patching/) and Clover Patches on fly  method's
