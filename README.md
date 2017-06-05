@@ -52,14 +52,16 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
      3.No Audio after Sleep : use EAPDFix or Codec_Commander , customize its info.plist as per your requirements.
      4.Device show but no Audio : Some laptops requires to use FakePCIID , use always latest version of FakePCIID from rehabman.
      5.if still not geting sound devices then : please report with Requested files ,
-### Note : Recommended to Use EasyKexPro for installation , Repair Permission and Rebuild Caches.
+#### Note : Recommended to Use EasyKexPro for installation , Repair Permission and Rebuild Caches.
+
 
 ### Issue/Bug Reporting :
+ You must have all files requested in [Troubleshooting](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/TroubleShoot/Troubleshoot%20Reporting.md) 
 
- You must have all files requested in [Troubleshooting :](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/TroubleShoot/Troubleshoot%20Reporting.md) 
 
 
-This kext is based on  [PikeRAlpha's DummyHDA method](https://pikeralpha.wordpress.com/2013/12/17/new-style-of-applehda-kext-patching/) and Clover Patches on fly  method's
 ### Credits :
+This kext is based on  [PikeRAlpha's DummyHDA method](https://pikeralpha.wordpress.com/2013/12/17/new-style-of-applehda-kext-patching/) and Clover Patches on fly  method's
+
 PikeRAlpha, Mirone, EmlyDinesh, The king, Master Chief, RevoGirl, toleda, bcc9, TimeWalker and many others who contributed to AppleHDA patching.
 
