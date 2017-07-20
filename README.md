@@ -28,7 +28,7 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
 ### Layout_ID/Audio ID description :
 
     for Desktop's:
-      1 - Layout_ID 11 = 5/6 ports supported (Pink, Green, Blue) (Note : without auto-switch , you have to manually select between output/input device's) 
+      1 - Layout_ID 11 = 5/6 ports supported (Pink, Green, Blue) (Note : No JackSense (without auto-switch) , you have to manually select between output/input device's , ) 
       3 - Layout_ID 13 =   5/6 ports supported (Grey, Black, Laranja, Pink, Green, Blue)
       
     for Laptop's :
@@ -53,12 +53,19 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
      4.Device show but no Audio : Some laptops requires to use FakePCIID , use always latest version of FakePCIID from rehabman.
      5.if still not geting sound devices then : please report with Requested files ,
 #### Note : Recommended to Use EasyKexPro for installation , Repair Permission and Rebuild Caches.
-
+   
 
 ### Issue/Bug Reporting :
  You must have all files requested in [Troubleshooting](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/TroubleShoot/Troubleshoot%20Reporting.md) 
 
-
+### How to get Codec Dump :
+     1. Use Ubuntu or Any Version of Linux Distro (Note : Use the latest version of Linux and Alsa drivers )
+     2. Open Terminal and copy paste below Code :
+     ```
+      ~/Desktop && mkdir CodecDump && for c in /proc/asound/card*/codec#*; do f="${c/\/*card/card}"; cat "$c" > CodecDump/${f//\//-}.txt; done && zip -r CodecDump.zip CodecDump
+      ```
+     3. On Desktop there’s a folder/file name Codec_dump
+     4. Save this to safe place   
 
 ### Credits :
 This kext is based on  [PikeRAlpha's DummyHDA method](https://pikeralpha.wordpress.com/2013/12/17/new-style-of-applehda-kext-patching/) and Clover Patches on fly  method's
