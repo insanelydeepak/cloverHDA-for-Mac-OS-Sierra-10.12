@@ -61,14 +61,16 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
 ### How to get Codec Dump :
      1. Use Ubuntu or Any Version of Linux Distro (Note : Use the latest version of Linux and Alsa drivers )
      2. Open Terminal and copy paste below Code :
-     ```
       ~/Desktop && mkdir CodecDump && for c in /proc/asound/card*/codec#*; do f="${c/\/*card/card}"; cat "$c" > CodecDump/${f//\//-}.txt; done && zip -r CodecDump.zip CodecDump
-      ```
+      
      3. On Desktop there’s a folder/file name Codec_dump
-     4. Save this to safe place   
+     4. Save this to safe place  
+
+
 
 ### Credits :
 This kext is based on  [PikeRAlpha's DummyHDA method](https://pikeralpha.wordpress.com/2013/12/17/new-style-of-applehda-kext-patching/) and Clover Patches on fly  method's
 
 PikeRAlpha, Mirone, EmlyDinesh, The king, Master Chief, RevoGirl, toleda, bcc9, TimeWalker and many others who contributed to AppleHDA patching.
+
 
