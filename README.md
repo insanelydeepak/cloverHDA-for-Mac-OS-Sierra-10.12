@@ -25,11 +25,6 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
 
 #### Note : for Layout_ID you can use DSDT (HDEF Patch) or Clover (Clover/Config.plist/Devices/Audio/Inject=Audio_ID) or [HDAEnabler's kexts](https://bitbucket.org/insanelydeepak/hdaenablers-applehda-for-hackintosh/downloads)
 
-
-#### Note : for KabyLake System , use FakePCIID + HDMI kext from below link
-[OS-X-Fake-PCI-ID]https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
-
-
 ### Layout_ID/Audio ID description :
 
     for Desktop's:
@@ -57,6 +52,10 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
      3.No Audio after Sleep : use EAPDFix or Codec_Commander , customize its info.plist as per your requirements.
      4.Device show but no Audio : Some laptops requires to use FakePCIID , use always latest version of FakePCIID from rehabman.
      5.if still not geting sound devices then : please report with Requested files ,
+     
+#### Note : for KabyLake System , use FakePCIID + HDMI kext from below link
+(https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
+
 #### Note : Recommended to Use EasyKexPro for installation , Repair Permission and Rebuild Caches.
    
 
