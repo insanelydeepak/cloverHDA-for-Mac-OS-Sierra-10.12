@@ -25,6 +25,11 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
 
 #### Note : for Layout_ID you can use DSDT (HDEF Patch) or Clover (Clover/Config.plist/Devices/Audio/Inject=Audio_ID) or [HDAEnabler's kexts](https://bitbucket.org/insanelydeepak/hdaenablers-applehda-for-hackintosh/downloads)
 
+
+#### Note : for KabyLake System , use FakePCIID + HDMI kext from below link
+[OS-X-Fake-PCI-ID]https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
+
+
 ### Layout_ID/Audio ID description :
 
     for Desktop's:
