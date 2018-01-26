@@ -23,13 +23,21 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
       4 - Add Layout_ID = 13 , 11 or 12 as described in ReadME.txt (You don't have to do this if using method HDAEnabler or HDEF Patch)
       5 - Restart 
 
+### How to apply patches :
+
+      1 - Use a good plistEditor e.g PlistEdit Pro,Xcode,CloverConfigurator,CloverConfigurator Pro
+      2 - open cloverHDA.plist , goto KernelAndKextPatches -> KextsToPatch like in below screenshot
+          ![Screenshot](https://raw.githubusercontent.com/insanelydeepak/cloverHDA/master/res/cloverHDAPlist.png)
+      3 - copy all patches to your config.plist (one by one or all once ,its depend on your plist editor)
+        
+
 #### Note : for Layout_ID you can use DSDT (HDEF Patch) or Clover (Clover/Config.plist/Devices/Audio/Inject=Audio_ID) or [HDAEnabler's kexts](https://bitbucket.org/insanelydeepak/hdaenablers-applehda-for-hackintosh/downloads)
 
 ### Layout_ID/Audio ID description :
 
     for Desktop's:
       1 - Layout_ID 11 = 5/6 ports supported (Pink, Green, Blue) (Note : No JackSense (without auto-switch) , you have to manually select between output/input device's , ) 
-      3 - Layout_ID 13 =   5/6 ports supported (Grey, Black, Laranja, Pink, Green, Blue)
+      2 - Layout_ID 13 =   5/6 ports supported (Grey, Black, Laranja, Pink, Green, Blue)
       
     for Laptop's :
       1 - Layout_ID 13 =   3/5 ports supported (Black, Pink, Green, Blue)
