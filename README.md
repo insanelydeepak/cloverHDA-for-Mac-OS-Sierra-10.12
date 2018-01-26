@@ -1,5 +1,5 @@
 
-![HDA Icon](https://raw.githubusercontent.com/insanelydeepak/cloverHDA/master/res/cloverHDA.jpg)
+![HDA Icon](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/res/cloverHDA.jpg?raw=true)
 # cloverHDA 
 
 This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
@@ -29,7 +29,7 @@ This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
       2 - open cloverHDA.plist , goto KernelAndKextPatches -> KextsToPatch like in below screenshot
       3 - copy all patches to your config.plist (one by one or all once ,its depend on your plist editor)
         
-![Screenshot](https://raw.githubusercontent.com/insanelydeepak/cloverHDA/master/res/cloverHDAPlist.png)
+![Screenshot](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/res/cloverHDAPlist.png?raw=true)
 
 #### Note : for Layout_ID you can use DSDT (HDEF Patch) or Clover (Clover/Config.plist/Devices/Audio/Inject=Audio_ID) or [HDAEnabler's kexts](https://bitbucket.org/insanelydeepak/hdaenablers-applehda-for-hackintosh/downloads)
 
