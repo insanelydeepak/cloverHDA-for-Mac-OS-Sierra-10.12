@@ -1,11 +1,9 @@
 
 ![HDA Icon](https://github.com/insanelydeepak/cloverHDA-for-Mac-OS-Sierra-10.12/blob/master/res/cloverHDA.jpg?raw=true)
-# cloverHDA 
+# CloverHDA 
 
-___
 
 This cloverHDA.kext enables audio/sound on Mac OS Sierra 10.12
-___
 
 if you like this project, please star it.
 
